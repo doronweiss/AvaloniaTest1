@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AvaloniaTest1": {
+      "commandName": "Project",
+      "commandLineArgs": "..\\run_dir"
+    }
+  }
+}
