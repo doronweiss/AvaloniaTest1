@@ -12,7 +12,10 @@
         <RowDefinition/>
         <RowDefinition/>
       </Grid.RowDefinitions>
-      <Label Name="myLBL" Content="Hello world" VerticalAlignment="Stretch" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-      <Button Grid.Row="1" Margin="10,0" Content="Click me please" Click="OnBtnClick"/>
+      <TextBlock Name="myLBL" Text="Hello world" FontSize="36" TextWrapping="Wrap"
+             VerticalAlignment="Stretch" />
+      <Border Grid.Row="1" BorderBrush="Red" BorderThickness="10">
+        <Button Grid.Row="1" Margin="10,0" Content="Click me please" Click="OnBtnClick" />
+      </Border>
     </Grid>
 </Window>
