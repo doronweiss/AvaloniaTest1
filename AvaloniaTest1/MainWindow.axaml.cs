@@ -15,13 +15,9 @@ namespace AvaloniaTest1 {
     }
 
     public void OnBtnClick(object? sender, RoutedEventArgs routedEventArgs) {
-      //myLBL.Content = DateTime.Now.ToString();
-      if (!timer.IsEnabled) {
-        timer.IsEnabled = true;
-      } else {
-        timer.IsEnabled = false;
+      timer.IsEnabled = !timer.IsEnabled;
+      if (!timer.IsEnabled) 
         myLBL.Text = $"Stopped: {DateTime.Now.ToString()}";
-      }
     }
 
     private void OnTimer(object? sender, EventArgs e) {
