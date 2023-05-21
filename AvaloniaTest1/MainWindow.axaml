@@ -6,7 +6,7 @@
         x:Class="AvaloniaTest1.MainWindow"
         Width="500" Height="300"
         Closing="OnWindowClosing"
-        Title="AvaloniaTest1">
+        Title="Time display">
     <Grid>
       <Grid.RowDefinitions>
         <RowDefinition/>
@@ -14,7 +14,7 @@
       </Grid.RowDefinitions>
       <TextBlock Name="myLBL" Text="Hello world" FontSize="36" TextWrapping="Wrap"
              VerticalAlignment="Stretch" />
-      <Border Grid.Row="1" BorderBrush="Red" BorderThickness="10">
+      <Border Grid.Row="1" BorderBrush="Blue" BorderThickness="3" >
         <Button Grid.Row="1" Margin="10,0" Content="Click me please" Click="OnBtnClick" />
       </Border>
     </Grid>
